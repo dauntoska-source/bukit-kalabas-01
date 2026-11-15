@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predev": "node scripts/reduce-forest-trees.mjs",
+    "predev": "node scripts/reduce-forest-trees.mjs && node scripts/enforce-storage-stacks.mjs",
     "dev": "vite --host 0.0.0.0",
-    "prebuild": "node scripts/reduce-forest-trees.mjs",
+    "prebuild": "node scripts/reduce-forest-trees.mjs && node scripts/enforce-storage-stacks.mjs",
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
