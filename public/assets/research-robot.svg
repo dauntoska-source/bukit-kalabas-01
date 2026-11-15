@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1100" role="img" aria-label="Yellow research robot">
+  <defs>
+    <linearGradient id="goldBase" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f6d54a"/>
+      <stop offset="50%" stop-color="#f4c92d"/>
+      <stop offset="100%" stop-color="#dca500"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#a87400"/>
+      <stop offset="100%" stop-color="#5b3a00"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" x2="1">
+      <stop offset="0%" stop-color="#dfe4e8"/>
+      <stop offset="100%" stop-color="#9aa7b3"/>
+    </linearGradient>
+    <linearGradient id="chestGlow" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffe890"/>
+      <stop offset="100%" stop-color="#e5b439"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <!-- shoulders / arms -->
+    <g fill="url(#goldBase)" stroke="#1a1a1a" stroke-width="18" stroke-linejoin="round">
+      <path d="M170 245 L350 200 Q440 210 500 260 L478 402 Q430 435 350 418 L225 400 Q160 370 170 245 Z"/>
+      <path d="M1030 245 L850 200 Q760 210 700 260 L722 402 Q770 435 850 418 L975 400 Q1040 370 1030 245 Z"/>
+    </g>
+
+    <!-- forearms -->
+    <g fill="url(#goldBase)" stroke="#1a1a1a" stroke-width="16" stroke-linejoin="round">
+      <path d="M90 565 L240 520 Q310 540 332 626 L310 760 L170 780 L52 700 Z"/>
+      <path d="M1110 565 L960 520 Q890 540 868 626 L890 760 L1030 780 L1148 700 Z"/>
+    </g>
+
+    <!-- hands/wheels -->
+    <g>
+      <g transform="translate(120 770)">
+        <circle r="146" fill="url(#goldDark)" stroke="#1a1a1a" stroke-width="18"/>
+        <circle r="94" fill="#373737" stroke="#1a1a1a" stroke-width="16"/>
+        <circle r="44" fill="#8d8d8d" stroke="#1a1a1a" stroke-width="10"/>
+        <g stroke="#1a1a1a" stroke-width="8" stroke-linecap="round" opacity="0.8">
+          <g transform="rotate(0)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+          <g transform="rotate(30)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+          <g transform="rotate(60)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+          <g transform="rotate(90)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+          <g transform="rotate(120)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+          <g transform="rotate(150)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+        </g>
+      </g>
+
+      <g transform="translate(1080 770)">
+        <circle r="146" fill="url(#goldDark)" stroke="#1a1a1a" stroke-width="18"/>
+        <circle r="94" fill="#373737" stroke="#1a1a1a" stroke-width="16"/>
+        <circle r="44" fill="#8d8d8d" stroke="#1a1a1a" stroke-width="10"/>
+        <g stroke="#1a1a1a" stroke-width="8" stroke-linecap="round" opacity="0.8">
+          <g transform="rotate(0)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+          <g transform="rotate(30)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+          <g transform="rotate(60)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+          <g transform="rotate(90)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+          <g transform="rotate(120)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+          <g transform="rotate(150)"><line x1="0" y1="-90" x2="0" y2="-130"/></g>
+        </g>
+      </g>
+    </g>
+
+    <!-- torso -->
+    <g fill="url(#goldBase)" stroke="#1f1f1f" stroke-width="18" stroke-linejoin="round">
+      <path d="M420 180 H780 Q900 180 952 280 Q1020 380 990 500 Q960 620 840 670 H360 Q240 620 210 500 Q180 380 248 280 Q300 180 420 180 Z"/>
+    </g>
+
+    <!-- chest armor -->
+    <g fill="url(#goldDark)" stroke="#1a1a1a" stroke-width="14" stroke-linejoin="round">
+      <path d="M392 260 H808 L760 500 H440 Z"/>
+      <path d="M450 290 L750 290 L726 474 H474 Z" fill="url(#goldBase)"/>
+    </g>
+
+    <!-- visor / face -->
+    <g>
+      <path d="M408 280 H792 Q826 280 898 350 L912 458 Q914 576 816 630 H384 Q286 576 288 458 L302 350 Q374 280 408 280 Z" fill="#0e0f13" stroke="#1a1a1a" stroke-width="18"/>
+      <path d="M404 290 H796 L770 472 H430 Z" fill="#1d1b1b"/>
+      <path d="M468 330 H732 L700 512 H500 Z" fill="#392b25"/>
+      <path d="M448 342 H752 L720 482 H480 Z" fill="#2b1c1d" opacity="0.7"/>
+      <g fill="#f2c249">
+        <path d="M470 386 L540 380 L530 422 L470 430 Z"/>
+        <path d="M660 386 L730 380 L740 430 L680 422 Z"/>
+      </g>
+      <g fill="#8f4f00" opacity="0.35">
+        <rect x="455" y="335" width="48" height="28" rx="8"/>
+        <rect x="698" y="335" width="48" height="28" rx="8"/>
+      </g>
+    </g>
+
+    <!-- torso vents -->
+    <g fill="#1a1a1a" opacity="0.8">
+      <rect x="470" y="250" width="35" height="10" rx="5"/>
+      <rect x="696" y="250" width="35" height="10" rx="5"/>
+      <rect x="530" y="246" width="140" height="12" rx="6"/>
+    </g>
+
+    <!-- waist and legs -->
+    <g fill="url(#goldBase)" stroke="#1a1a1a" stroke-width="18" stroke-linejoin="round">
+      <path d="M432 560 H768 Q800 560 812 598 L832 722 Q842 770 802 790 H398 Q358 770 368 722 L388 598 Q400 560 432 560 Z"/>
+      <path d="M300 785 H440 Q490 830 488 910 L470 960 H280 Q252 910 270 850 Z"/>
+      <path d="M760 785 H900 Q950 830 952 910 L968 960 H778 Q758 910 768 850 Z"/>
+    </g>
+
+    <!-- knee armor -->
+    <g fill="url(#goldDark)" stroke="#1a1a1a" stroke-width="14">
+      <rect x="328" y="760" width="122" height="82" rx="20"/>
+      <rect x="750" y="760" width="122" height="82" rx="20"/>
+    </g>
+
+    <!-- lower wheels -->
+    <g>
+      <g transform="translate(390 972)">
+        <circle r="150" fill="url(#goldDark)" stroke="#1a1a1a" stroke-width="18"/>
+        <circle r="96" fill="#323232" stroke="#1a1a1a" stroke-width="16"/>
+        <circle r="44" fill="#a6a6a6" stroke="#1a1a1a" stroke-width="10"/>
+      </g>
+      <g transform="translate(810 972)">
+        <circle r="150" fill="url(#goldDark)" stroke="#1a1a1a" stroke-width="18"/>
+        <circle r="96" fill="#323232" stroke="#1a1a1a" stroke-width="16"/>
+        <circle r="44" fill="#a6a6a6" stroke="#1a1a1a" stroke-width="10"/>
+      </g>
+    </g>
+
+    <!-- shoulder details and visor detail -->
+    <g fill="#1a1a1a" opacity="0.85">
+      <rect x="452" y="213" width="28" height="80" rx="12"/>
+      <rect x="720" y="213" width="28" height="80" rx="12"/>
+      <rect x="505" y="338" width="190" height="22" rx="11"/>
+    </g>
+    <g fill="#f0c448">
+      <path d="M550 142 L610 118 L640 164 L590 175 Z"/>
+      <path d="M600 118 L706 115 L718 158 L633 168 Z"/>
+    </g>
+  </g>
+</svg>
